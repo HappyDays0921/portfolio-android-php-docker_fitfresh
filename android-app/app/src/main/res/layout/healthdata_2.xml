@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/default_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#C2F189"
+        android:gravity="center"
+        android:text="fit-fresh"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/search"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/default_returnbutton"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:background="#63AC0F"
+        android:foreground="@drawable/returnbutton"
+        app:layout_constraintBottom_toBottomOf="@+id/default_action_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        />
+
+    <!-- 리니어레이아웃 작성-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="다음"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+        </LinearLayout>
+        <!-- 시간대를 선택해주세요!-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:text="Q. 시간대를 선택해 주세요."
+                />
+            <RadioButton
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+
+                android:text="아침"
+                />
+
+            <RadioButton
+                android:id="@+id/l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "6dp"
+                android:text="점심"
+                />
+
+            <RadioButton
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "6dp"
+                android:text="저녁"
+                />
+        </LinearLayout>
+        <!--섭취한 영양소를 선택해주세요! -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="Q.섭취한 영양소를 선택해주세요. "
+                />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="( 복수 선택 가능 )"
+                />
+        </LinearLayout>
+        <!--밥류 어류 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal">
+            <RadioButton
+                android:id="@+id/bob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="밥류 ( 백미, 현미, 콩밥 등)"
+                />
+            <RadioButton
+                android:id="@+id/fish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="어류 ( 고등어, 갈치 등 ) "
+                />
+
+
+        </LinearLayout>
+        <!-- 면류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/noodle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="면류 (칼국수, 우동, 짜장면, 라면, 컵라면 등) "
+                />
+        </LinearLayout>
+        <!--빵류, 패스트푸드-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal">
+            <RadioButton
+                android:id="@+id/bread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="빵류 ( 식빵 등 ) "
+                />
+            <RadioButton
+                android:id="@+id/fastfood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="패스트푸드( 피자, 햄버거, 떡볶이 )"
+                />
+        </LinearLayout>
+        <!--찌개류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/soup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="찌개류( 된장찌개, 김치찌개, 미역국 )"
+                />
+        </LinearLayout>
+        <!--달걀 두부류, 볶음류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/egg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="달걀, 두부류"
+                />
+            <RadioButton
+                android:id="@+id/boggem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="볶음류 (제육, 불고기 등)"
+                />
+        </LinearLayout>
+        <!--튀김류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/fried"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="튀김류 (치킨, 돈까스, 새우튀김, 부침개 등 )"
+                />
+        </LinearLayout>
+        <!--채소류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/namul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="채소류 (시금치, 콩나물, 쌈채소류 등)"
+                />
+        </LinearLayout>
+        <!--장류, 쌈채소류-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/jang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="장류 ( 고추장, 된장, 쌈장 등 )"
+                />
+            <RadioButton
+                android:id="@+id/ssam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="쌈채소류 ( 상추, 깻잎 등 ) "
+                />
+        </LinearLayout>
+        <!--발효식품, 알코올, 스낵-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/balhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="발효식품 (김치, 장아찌 등)"
+                />
+            <RadioButton
+                android:id="@+id/alchol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알코올"
+                />
+            <RadioButton
+                android:id="@+id/snack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스낵류"
+                />
+        </LinearLayout>
+        <!--구황작물류(고구마, 감자)-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/guhwang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:text="구황작물류 (고구마, 감자 등)"
+                />
+        </LinearLayout>
+        <!--유제품류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/milk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:text="유제품류 ( 요거트, 우유, 치즈 등)"
+                />
+
+        </LinearLayout>
+        <!--과일류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/fruit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:text="과일류 ( 사과, 배, 귤, 포도, 망고 등)"
+                />
+        </LinearLayout>
+        <!--카페인류-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/coffee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "28dp"
+                android:text="카페인류 (커피, 초코, 녹차 등 )"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
