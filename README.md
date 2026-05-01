@@ -43,7 +43,7 @@ IDE : Android Studio, Visual Studio Code
 
 데이터베이스 : MYSQL
 
-기타 : phpMyAdmin
+기타 : phpMyAdmin, DOCKER
 
 ## 실행방법
 
