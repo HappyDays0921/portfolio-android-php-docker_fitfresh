@@ -45,6 +45,13 @@ IDE : Android Studio, Visual Studio Code
 
 기타 : phpMyAdmin
 
+## 실행방법
+
+## 실행 화면
+
+## 개선사항
+
+
 
 
 
