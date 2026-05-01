@@ -1,4 +1,4 @@
-# portfolio-android-php-docker_fitfresh
+# 포트폴리오1-android-php-docker_fitfresh
 자바 + php_사용자 식습관 진단 어플
 
 ## 프로젝트 소개
