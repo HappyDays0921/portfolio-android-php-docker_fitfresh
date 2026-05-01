@@ -49,15 +49,21 @@ IDE : Android Studio, Visual Studio Code
 
 ## 실행 화면
 1.로그인 화면
-<img width="1440" height="3120" alt="1_LOGIN" src="https://github.com/user-attachments/assets/e0cb8c8e-81d9-434d-9de0-173aecc74fb3" />
 
+<img width="2962" height="1695" alt="그림1" src="https://github.com/user-attachments/assets/b81fb497-f205-4154-af0b-5878bfb72f5c" />
 
 2.메인화면
 
+<img width="2962" height="1695" alt="그림2" src="https://github.com/user-attachments/assets/f75a345a-5178-4e5a-a481-ccf3ea381f73" />
+
 3.식습관 설문 및 결과화면
+
+<img width="2962" height="1695" alt="그림3" src="https://github.com/user-attachments/assets/d7f1bb16-2b8c-45b8-8656-134fee5f5c97" />
+
 
 4.만성질환 설문 및 결과화면
 
+<img width="2962" height="1695" alt="그림4" src="https://github.com/user-attachments/assets/644910b5-1943-4cc7-a139-77fb2d4ee307" />
 
 
 ## 개선사항
