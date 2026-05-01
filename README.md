@@ -48,6 +48,17 @@ IDE : Android Studio, Visual Studio Code
 ## 실행방법
 
 ## 실행 화면
+1.로그인 화면
+<img width="1440" height="3120" alt="1_LOGIN" src="https://github.com/user-attachments/assets/e0cb8c8e-81d9-434d-9de0-173aecc74fb3" />
+
+
+2.메인화면
+
+3.식습관 설문 및 결과화면
+
+4.만성질환 설문 및 결과화면
+
+
 
 ## 개선사항
 
