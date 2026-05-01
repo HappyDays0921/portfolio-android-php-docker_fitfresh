@@ -52,21 +52,33 @@ IDE : Android Studio, Visual Studio Code
 
 <img width="2962" height="1695" alt="그림1" src="https://github.com/user-attachments/assets/b81fb497-f205-4154-af0b-5878bfb72f5c" />
 
+-회원가입 이후 로그인 성공시 화면 전환
+
+
 2.메인화면
 
 <img width="2962" height="1695" alt="그림2" src="https://github.com/user-attachments/assets/f75a345a-5178-4e5a-a481-ccf3ea381f73" />
 
+-상단의 진단 기능과 하단 7개의 음식 추천 버튼
+
 3.식습관 설문 및 결과화면
 
 <img width="2962" height="1695" alt="그림3" src="https://github.com/user-attachments/assets/d7f1bb16-2b8c-45b8-8656-134fee5f5c97" />
+
+-사용자 식단의 탄수화물 단백질 지방을 검사하여 결과를 표시
 
 
 4.만성질환 설문 및 결과화면
 
 <img width="2962" height="1695" alt="그림4" src="https://github.com/user-attachments/assets/644910b5-1943-4cc7-a139-77fb2d4ee307" />
 
+-만성질환 설문조사를 통해 우려되는 질환 요소를 알려주고 좋은 식재료 및 음식 추천
 
 ## 개선사항
+
+-DOTHOME 호스팅 기간 만료로 인해 로그인 오류 문제를 로컬에서 돌릴 수 있도록 수정
+
+-
 
 
 
